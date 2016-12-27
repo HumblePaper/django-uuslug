@@ -1,5 +1,5 @@
 from django.db.models.base import ModelBase
-from slugify import slugify as pyslugify
+from pslugify import slugify as pyslugify
 from django.utils import six
 if six.PY3:
     from django.utils.encoding import smart_str
